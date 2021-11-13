@@ -1,0 +1,15 @@
+
+body{
+    background-color: cornsilk;
+}
+body{
+    color: black
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: inline-block;
+    height: 300px; width: 300px;
+}

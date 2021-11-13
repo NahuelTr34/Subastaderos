@@ -1,0 +1,61 @@
+span{
+    font-family: cursive;
+}
+body{
+    background-color: cornsilk;
+    color: black;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+a:link{ 
+    color: black;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: azure;
+}
+a:active{ 
+    color: rgb(145, 60, 60);
+    border-style: inset;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    width: 50%;
+}
+aside{
+    float: right;
+    width: 50%;
+    justify-content: flex-start;
+}
+section{
+    float: right;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+p{
+    float: left;
+    width: 50%;
+}
+.Inicio{
+    order: -1;
+}
+.Pagina{
+    order: 1;
+}
+.card{
+    display: inline-block;
+    display: flex;
+    justify-content: bottom;
+}

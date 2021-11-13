@@ -1,0 +1,28 @@
+body{
+    background-color: cornsilk;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+a:link{ 
+    color: darkgreen;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: azure;
+}
+a:active{ 
+    color: rgb(145, 60, 60);
+    border-style: inset;
+}
+body{
+    color: black
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
